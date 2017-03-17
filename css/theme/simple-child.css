@@ -54,6 +54,14 @@ body {
   opacity: 50%!important;
 }
 
+.reveal .text-small {
+  font-size: 70% !important;
+}
+
+.reveal .text-blink {
+  -moz-text-blink: blink;
+}
+
 .reveal .text-ugly {
   color: #ff00a1;
   font-family: "Comic Sans MS", sans-serif;
@@ -68,8 +76,33 @@ body {
   display: inline-block;
 }
 
+.reveal .strike {
+  text-decoration: line-through;
+}
+
+.reveal .impact {
+  font-family: impact, sans-serif;
+  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.8);
+  font-size: 500%;
+}
+
+.reveal .hlighti {
+  font-weight: 600;
+  background-color: #01D099;
+  color: #222;
+  padding-left: 0.15em;
+  padding-right: 0.15em;
+  display: inline;
+}
+
 .reveal .align-right {
   text-align: right;
+}
+
+.reveal section img.inline {
+  margin: 0!important;
+  position: relative;
+    top: 10px;
 }
 
 .reveal li {
