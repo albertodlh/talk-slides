@@ -51,7 +51,7 @@ body {
 }
 
 .reveal .muted {
-  opacity: 50%!important;
+  color: #777!important;
 }
 
 .reveal .text-small {
